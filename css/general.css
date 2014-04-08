@@ -29,8 +29,7 @@ img {
 }
 
 header {
-    background-color: #97EBEC
-;
+    background-color: #97EBEC;
     padding: 1rem;
 }
 
@@ -38,7 +37,6 @@ header {
     width:8rem;
     height: auto;
     float: left;
-    margin: 5%;
 }
 
 .nav-top {
@@ -47,12 +45,12 @@ header {
 
 .nav-top ul{
     margin: 0;
-    padding: 0;
+    padding: 1.5rem;
     text-align: center;
 }
 
 .nav-top li{
-    margin: 3rem;
+    margin: 2rem;
     padding: 0;
     display: inline;
     font-size: 15pt; 
@@ -63,6 +61,16 @@ bady {
     padding: 0;
 }
 
+figure {
+    background-color: #97EBEC;
+    padding:1rem;
+    margin: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+        
 
 
 
