@@ -70,12 +70,23 @@ figure {
 h1 {
     text-align: center;
     font-family: sail, script;
+    font-size: 3.5rem;
+}
+
+h2 {
+    margin: 1.5rem;
+    padding: inherit;
 }
 
 p {
-   margin: 1rem;
-   padding: 0; 
+    margin: 1rem;
+    padding-bottom: 0;
+    font-size: 1.1rem;
     font-family: Philosopher, serif;
+}
+
+.nav-h2 {
+   text-align: right;
 }
 
 .badges {
