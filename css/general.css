@@ -124,8 +124,19 @@ h3 {
     margin: 1rem;
 }
 
-    
-        
+.vertical {
+    width: auto;
+    height: auto;
+    position: inherit;
+    overflow: hidden;
+}
+.vertical .items {
+    -webkit-animation: vscroll 20s infinite;
+    -moz-animation: vscroll 20s infinite;
+    -ms-animation: vscroll 20s infinite;
+    animation: vscroll 20s infinite;
+}
+
 
 
 
