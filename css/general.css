@@ -45,15 +45,29 @@ header {
 
 .nav-top ul{
     margin: 0;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
 .nav-top li{
-    margin: 2rem;
+    margin: 1.2rem;
     padding: 0;
     display: inline;
-    font-size: 15pt; 
+    font-size: 1.5rem; 
+    font-family: sail, cursive;
+}
+
+.nav-top a,
+.nav-top a:link,
+.nav-top a:visited {
+    display: inline-block;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.selected {
+    background-color:#C8C8C8; 
+    padding: .4rem;
 }
 
 body {
