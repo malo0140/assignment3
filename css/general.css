@@ -124,20 +124,31 @@ h3 {
     margin: 1rem;
 }
 
-.vertical {
-    width: auto;
-    height: auto;
-    position: inherit;
-    overflow: hidden;
-}
-.vertical .items {
-    -webkit-animation: vscroll 20s infinite;
-    -moz-animation: vscroll 20s infinite;
-    -ms-animation: vscroll 20s infinite;
-    animation: vscroll 20s infinite;
+h4 {
+    color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 0;
 }
 
+.video {
+	position: relative;
+	padding-bottom: 55%; 
+	padding-top: 25px;
+	height: 0;        
+}
 
+.video iframe {
+    border: 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
-
-    
+h5 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #98EAFF;
+}       
